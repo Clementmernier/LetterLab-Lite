@@ -18,15 +18,17 @@ The dataset contains **48,000 images** distributed across 24 classes, with 2,000
 
 ## Repository Structure
 
-The dataset is distributed as a single compressed TAR archive to simplify downloading and distribution.
-
 ```text
 LetterLab-Lite/
-├── README.md
-├── LICENSE
 ├── CITATION.cff
-└── ...
+├── dataset/
+│   └── LetterLab-Lite.tar.gz
+├── LICENCE
+└── README.md
 ```
+
+The dataset is distributed as a compressed TAR archive (`.tar.gz`) to simplify downloading and storage.
+
 
 Once extracted, the dataset follows this structure:
 
@@ -55,23 +57,22 @@ Where:
 - `LETTER` is the corresponding uppercase letter.
 - `XXXXX` is a five-digit identifier.
 
-## Download and Installation
+## Download and Extraction
 
-Download the latest dataset archive from the [GitHub Releases](../../releases/latest) page.
+The dataset archive is located in the `dataset/` directory.
 
-Extract the archive using:
-
-```bash
-tar -xzf LetterLab-Lite.tar.gz
-```
-
-The dataset will then be available in the `dataset/` directory.
-
-To inspect the archive without extracting it:
+Extract it from the repository root using:
 
 ```bash
-tar -tzf LetterLab-Lite.tar.gz
+tar -xzf dataset/LetterLab-Lite.tar.gz
 ```
+
+To inspect its contents without extracting:
+
+```bash
+tar -tzf dataset/LetterLab-Lite.tar.gz
+```
+
 
 ## Usage
 
