@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use LetterLab Lite, please cite it as follows."
+title: "LetterLab Lite"
+type: dataset
+authors:
+  - family-names: "Mernier"
+    given-names: "Clement"
+version: 1.0.0
+date-released: 2026-11-19
+license: CC-BY-SA-4.0
+repository-code: "https://github.com/USERNAME/LetterLab-Lite"
+abstract: "A lightweight OCR dataset containing 48,000 images across 24 classes, with 2,000 images per class."
